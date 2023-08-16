@@ -1,0 +1,40 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "type": "0eae51c5-62a9-4d28-bc28-18e9a6de02fd:string:EMBEDDED_RENDERER",
+      "name": "fed7d07b-94ba-4b30-8286-cc711d4f7e5d:string:COVERING_LETTER",
+      "url": "af771b0d-d19c-4d0c-a19e-2ea77dd78286:string:https://generic-templates.tradetrust.io"
+    },
+    "issuers": [
+      {
+        "name": "e0a8d003-ecd4-4e60-9e22-44f3bba77033:string:Demo Issuer",
+        "documentStore": "c956ea9f-31ed-4109-8c88-6e5f6b800f96:string:0x71D28767662cB233F887aD2Bb65d048d760bA694",
+        "identityProof": {
+          "type": "dae86314-d264-47f2-872a-e1e8c8c0cc97:string:DNS-TXT",
+          "location": "27e293a0-5548-411e-a046-79e708ac8e67:string:example.tradetrust.io"
+        },
+        "revocation": {
+          "type": "ebd6de50-9992-444c-ac4f-2f41879e05b6:string:NONE"
+        }
+      }
+    ],
+    "network": {
+      "chain": "2abfda64-fbe6-4f8e-8c3e-b765729c4215:string:ETH",
+      "chainId": "1c9a3f1d-1d6e-4c60-b887-68678a75cefc:string:11155111"
+    },
+    "title": "9315df8a-efe8-44a7-9160-f4bf635ab605:string:Test UTM Link",
+    "remarks": "787d64fc-fcff-4ea6-8f3f-59f4950c9175:string:Testing testing ",
+    "links": {
+      "self": {
+        "href": "f6212927-da72-4e8f-b9bc-4616b0d3855f:string:https://action.openattestation.com?q=%7B%22type%22%3A%22DOCUMENT%22%2C%22payload%22%3A%7B%22uri%22%3A%22https%3A%2F%2Ftradetrust-functions.netlify.app%2F.netlify%2Ffunctions%2Fstorage%2F2a18ffdd-74dc-46e9-a801-18880225f54a%22%2C%22key%22%3A%22b1cd0acacb35854fb1c83eaa9db65e4cf28e4c26b1fab770af9f5ff42a747455%22%2C%22permittedActions%22%3A%5B%22STORE%22%5D%2C%22redirect%22%3A%22https%3A%2F%2Fdev.tradetrust.io%2F%22%2C%22chainId%22%3A%2211155111%22%7D%7D"
+      }
+    }
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "c227a487c19064c62d2ab77d7840d27fcb97c7550ad4d012b088eee9939c21f0",
+    "proof": [],
+    "merkleRoot": "c227a487c19064c62d2ab77d7840d27fcb97c7550ad4d012b088eee9939c21f0"
+  }
+}
